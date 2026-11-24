@@ -16,7 +16,27 @@ Submitted to the *Chinese Journal of Mechanical Engineering*, column "Humanoid R
 ## What it does not provide
 
 - **No data.** All inputs are public datasets (RoboMIND v1.0, RoboDojo, FMB, RH20T) and the officially released URDF/MJCF models. Point `PFPA_DATA_ROOT` at your local copy.
-- **No single entry point for the four-step decision.** S0–S4 are implemented inside the analysis scripts listed below rather than as one callable CLI. A consolidated `pfpam.py` is planned; until then, `sr42_s3_layer_check.py` and `sr43_fail_side_s4.py` are the closest thing to a reference implementation of S3 and S4.
+- **No dataset.** See above. `src/pfpam.py --selftest` runs the full decision chain on synthetic batches and needs no data at all.
+
+## Quick start
+
+```bash
+pip install -r requirements.txt
+
+# 1) verify the decision chain without any dataset (four synthetic cases)
+python src/pfpam.py --selftest
+
+# 2) decide a real batch
+export PFPA_DATA_ROOT=/path/to/datasets
+python src/pfpam.py --body franka --batch $PFPA_DATA_ROOT/state_e1 --json audit.json
+```
+
+`pfpam.py` is the reference implementation of Algorithm 1: it takes a batch of
+trajectories of one embodiment and returns one of the four labels
+(model forward-kinematics output / calibrated / no information / doubtful),
+together with the intermediate quantities (r_L1, Kabsch offset magnitude and
+dispersion, eta). A batch of ten or more trajectories is recommended; the
+dispersion bound of S3 is not meaningful on three.
 
 ## Environment
 
@@ -47,6 +67,7 @@ Every path in the code is resolved through `PFPA_DATA_ROOT`; nothing is hard-cod
 
 | Script | Paper location | Purpose |
 |---|---|---|
+| `pfpam.py` | Algorithm 1, Sec. 4.1, 4.4 | Reference implementation of S0–S4 with a CLI and a dataset-free selftest |
 | `replay_l1.py` | Sec. 3.1, 3.3 | L1 kinematic replay, residual primitives, data loaders |
 | `replay_l2.py` | Sec. 3.2, 3.4 | L2 open-loop physics replay in MuJoCo; Δ |
 | `probe_fk_identity.py`, `probe_fk_identity_multi.py` | Sec. 3.1 | Forward-kinematics self-consistency of the recorded pose field |
