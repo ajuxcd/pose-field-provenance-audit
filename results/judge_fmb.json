@@ -1,0 +1,962 @@
+{
+ "criteria": {
+  "CAP": 1e-06,
+  "S0_FLOOR_POS": 1e-09,
+  "S0_JOINT_RANGE": 0.1,
+  "S3_MAG_MULT": 10.0,
+  "S3_DISP": 0.5,
+  "S4_HI": 5.0,
+  "S4_LO": 2.0,
+  "SIGMA": 1e-06
+ },
+ "summary": {
+  "n": 39,
+  "s0_hit": false,
+  "r_l1_m": 0.0030327445818797375,
+  "off_med_m": 0.09986328794499746,
+  "disp": 0.7234336265683209,
+  "eta": 0.9997009654199691,
+  "label": "实机标定值",
+  "by": "S4",
+  "rho_force_rl1": 0.2020242914979757,
+  "force_peak_med_N": 16.215294653631293
+ },
+ "per_traj": [
+  {
+   "file": "insert_only_1_L_L_4_vertical_n_32.npy",
+   "N": 36,
+   "r_l1_m": 0.0016853154090126555,
+   "off_m": [
+    0.04022437995501993,
+    0.06943414436077142,
+    -0.10949224903509475
+   ],
+   "force_peak_N": 17.413198040977875,
+   "force_p50_N": 5.7323874752568615,
+   "force_last_N": 14.127061880605126,
+   "torque_peak_Nm": 1.6265210863878576,
+   "z_drop_mm": 186.37529396181074,
+   "joint_range": 0.49686363979717807,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 4,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_1_L_L_4_vertical_n_34.npy",
+   "N": 21,
+   "r_l1_m": 0.003253995781755358,
+   "off_m": [
+    -0.0032035413461484197,
+    0.011438325252665915,
+    -0.09028487740658814
+   ],
+   "force_peak_N": 20.735988236316352,
+   "force_p50_N": 4.920690726041942,
+   "force_last_N": 20.735988236316352,
+   "torque_peak_Nm": 1.195974205869156,
+   "z_drop_mm": 186.0688435571467,
+   "joint_range": 0.3938080005588538,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 4,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_1_L_L_4_vertical_n_45.npy",
+   "N": 21,
+   "r_l1_m": 0.0025352186770198426,
+   "off_m": [
+    -0.05276468228458475,
+    -0.09099466239243517,
+    -0.06250629624118656
+   ],
+   "force_peak_N": 11.7310527709773,
+   "force_p50_N": 5.327918197019901,
+   "force_last_N": 11.7310527709773,
+   "torque_peak_Nm": 1.2540882914389109,
+   "z_drop_mm": 187.38115174614566,
+   "joint_range": 0.46622171152711,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 4,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_1_L_S_6_vertical_n_2.npy",
+   "N": 26,
+   "r_l1_m": 0.0013357905575969934,
+   "off_m": [
+    -0.037821869227817606,
+    -0.11679494090923352,
+    -0.08453030851550095
+   ],
+   "force_peak_N": 14.92740693006995,
+   "force_p50_N": 5.460791628814912,
+   "force_last_N": 14.92740693006995,
+   "torque_peak_Nm": 1.3528739667796386,
+   "z_drop_mm": 201.99338018042195,
+   "joint_range": 0.5045924549663596,
+   "info": {
+    "length": "S",
+    "size": "L",
+    "color": 6,
+    "shape": 1,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_2_L_L_2_vertical_n_20.npy",
+   "N": 44,
+   "r_l1_m": 0.003974931173099093,
+   "off_m": [
+    -0.001462850772448121,
+    0.03930914684892678,
+    -0.07491846958085976
+   ],
+   "force_peak_N": 16.13309986161978,
+   "force_p50_N": 5.0528516563999375,
+   "force_last_N": 13.920137972826028,
+   "torque_peak_Nm": 1.477996179989392,
+   "z_drop_mm": 164.0955547554794,
+   "joint_range": 0.3292930158547867,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 2,
+    "shape": 2,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_2_L_L_2_vertical_n_40.npy",
+   "N": 33,
+   "r_l1_m": 0.006571888430689572,
+   "off_m": [
+    -0.038031431809709915,
+    -0.09432858099703936,
+    -0.0810950862826206
+   ],
+   "force_peak_N": 18.259157904328646,
+   "force_p50_N": 3.7193259970144616,
+   "force_last_N": 16.223095986939327,
+   "torque_peak_Nm": 1.7092315712943211,
+   "z_drop_mm": 140.7339956026379,
+   "joint_range": 0.29954928202088604,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 2,
+    "shape": 2,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_2_L_L_2_vertical_n_67.npy",
+   "N": 32,
+   "r_l1_m": 0.003183093382632484,
+   "off_m": [
+    0.01469079162100595,
+    0.08196844257086391,
+    -0.07471914952172343
+   ],
+   "force_peak_N": 16.31016607621866,
+   "force_p50_N": 4.477068861000058,
+   "force_last_N": 15.157955556277098,
+   "torque_peak_Nm": 1.3689267615075356,
+   "z_drop_mm": 153.7720352561539,
+   "joint_range": 0.3760624144785192,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 2,
+    "shape": 2,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_2_L_S_8_vertical_n_18.npy",
+   "N": 26,
+   "r_l1_m": 0.0022244864855299287,
+   "off_m": [
+    -0.012352300464337107,
+    -0.0343589712632929,
+    -0.10419867457534224
+   ],
+   "force_peak_N": 19.328517081987794,
+   "force_p50_N": 5.168249854157413,
+   "force_last_N": 15.760480300135681,
+   "torque_peak_Nm": 0.9387272684449728,
+   "z_drop_mm": 236.2099010332134,
+   "joint_range": 0.5803270799994839,
+   "info": {
+    "length": "S",
+    "size": "L",
+    "color": 8,
+    "shape": 2,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_2_L_S_8_vertical_n_3.npy",
+   "N": 18,
+   "r_l1_m": 0.0038246225679604505,
+   "off_m": [
+    0.025999090490242405,
+    -0.34523659593536105,
+    -0.1451838779559891
+   ],
+   "force_peak_N": 12.275131870169998,
+   "force_p50_N": 3.252445592664624,
+   "force_last_N": 12.275131870169998,
+   "torque_peak_Nm": 1.1836901675265576,
+   "z_drop_mm": 137.5611069143774,
+   "joint_range": 0.3559282871623801,
+   "info": {
+    "length": "S",
+    "size": "L",
+    "color": 8,
+    "shape": 2,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_3_L_L_3_vertical_n_23.npy",
+   "N": 50,
+   "r_l1_m": 0.0022304997482177364,
+   "off_m": [
+    -0.013470370506092899,
+    -0.002115856482059475,
+    -0.08222681649116256
+   ],
+   "force_peak_N": 16.610479895098905,
+   "force_p50_N": 5.556274052839305,
+   "force_last_N": 15.706358615405609,
+   "torque_peak_Nm": 1.2577030408092649,
+   "z_drop_mm": 154.4763918245988,
+   "joint_range": 1.439729064774324,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 3,
+    "shape": 3,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_3_L_L_3_vertical_n_42.npy",
+   "N": 25,
+   "r_l1_m": 0.003245335878022439,
+   "off_m": [
+    0.0016902682117646006,
+    0.021082427355980482,
+    -0.08900042500769784
+   ],
+   "force_peak_N": 16.215294653631293,
+   "force_p50_N": 6.418131156092101,
+   "force_last_N": 15.239879360741206,
+   "torque_peak_Nm": 1.8298630024708304,
+   "z_drop_mm": 149.0164976224822,
+   "joint_range": 0.2948968823329289,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 3,
+    "shape": 3,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_3_L_L_3_vertical_n_56.npy",
+   "N": 32,
+   "r_l1_m": 0.006057720919285406,
+   "off_m": [
+    0.0016901184215520892,
+    -0.04053547514774161,
+    -0.12462461558187857
+   ],
+   "force_peak_N": 19.25652283274329,
+   "force_p50_N": 6.467013200301743,
+   "force_last_N": 4.49289704895721,
+   "torque_peak_Nm": 1.4451243266291531,
+   "z_drop_mm": 136.65815308464548,
+   "joint_range": 0.448295549016116,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 3,
+    "shape": 3,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_3_L_S_7_vertical_n_61.npy",
+   "N": 42,
+   "r_l1_m": 0.004587704655333534,
+   "off_m": [
+    -0.05579037366093614,
+    -0.09055708367571322,
+    -0.05692519900342971
+   ],
+   "force_peak_N": 19.943999270653524,
+   "force_p50_N": 5.674098370982466,
+   "force_last_N": 8.626559712104369,
+   "torque_peak_Nm": 1.6390981099315378,
+   "z_drop_mm": 199.25386315830707,
+   "joint_range": 1.1458350424918313,
+   "info": {
+    "length": "S",
+    "size": "L",
+    "color": 7,
+    "shape": 3,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_4_L_L_7_vertical_n_22.npy",
+   "N": 52,
+   "r_l1_m": 0.007733955199396479,
+   "off_m": [
+    -0.00890438133273136,
+    0.018818585540111094,
+    -0.0847583420374412
+   ],
+   "force_peak_N": 15.605466856513676,
+   "force_p50_N": 4.025343849026237,
+   "force_last_N": 6.829295585303799,
+   "torque_peak_Nm": 2.3719460712992833,
+   "z_drop_mm": 126.75037388421492,
+   "joint_range": 0.41461379075488347,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 7,
+    "shape": 4,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_4_L_L_7_vertical_n_26.npy",
+   "N": 42,
+   "r_l1_m": 0.0040995583752320465,
+   "off_m": [
+    0.011515535732955162,
+    0.022816915688564504,
+    -0.10466358296739622
+   ],
+   "force_peak_N": 16.870239687059243,
+   "force_p50_N": 6.50498355704377,
+   "force_last_N": 6.592206134208031,
+   "torque_peak_Nm": 2.4966406090741815,
+   "z_drop_mm": 148.99027519255222,
+   "joint_range": 0.5732512875834441,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 7,
+    "shape": 4,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_4_L_L_7_vertical_n_53.npy",
+   "N": 28,
+   "r_l1_m": 0.0031828182200854364,
+   "off_m": [
+    -0.01043138889656775,
+    -0.007306878703053327,
+    -0.09234986523393873
+   ],
+   "force_peak_N": 14.385674484644353,
+   "force_p50_N": 3.982219648113082,
+   "force_last_N": 14.353274674495017,
+   "torque_peak_Nm": 1.2836986125573828,
+   "z_drop_mm": 153.95502044923916,
+   "joint_range": 0.6138494900476662,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 7,
+    "shape": 4,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_4_L_S_2_vertical_n_39.npy",
+   "N": 34,
+   "r_l1_m": 0.0017264906328668488,
+   "off_m": [
+    -0.006762978737237912,
+    -0.011937060164601165,
+    -0.09778256917981154
+   ],
+   "force_peak_N": 16.350066218132735,
+   "force_p50_N": 4.816864191405043,
+   "force_last_N": 16.350066218132735,
+   "torque_peak_Nm": 1.1066664699285231,
+   "z_drop_mm": 215.80078959812417,
+   "joint_range": 0.6041191015700011,
+   "info": {
+    "length": "S",
+    "size": "L",
+    "color": 2,
+    "shape": 4,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_4_M_L_2_vertical_n_20.npy",
+   "N": 16,
+   "r_l1_m": 0.002083033131933712,
+   "off_m": [
+    0.013217012049957289,
+    0.015998776288131983,
+    -0.11565800623836722
+   ],
+   "force_peak_N": 18.978663527402627,
+   "force_p50_N": 2.004445997084644,
+   "force_last_N": 18.978663527402627,
+   "torque_peak_Nm": 1.5073798794566138,
+   "z_drop_mm": 142.44046794268843,
+   "joint_range": 0.4665767220524848,
+   "info": {
+    "length": "L",
+    "size": "M",
+    "color": 2,
+    "shape": 4,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_5_L_L_8_vertical_n_12.npy",
+   "N": 26,
+   "r_l1_m": 0.004006415681546947,
+   "off_m": [
+    -0.0013613855256906504,
+    0.005327557279341949,
+    -0.09463208759688865
+   ],
+   "force_peak_N": 16.55548180508516,
+   "force_p50_N": 4.644702971116037,
+   "force_last_N": 16.55548180508516,
+   "torque_peak_Nm": 1.3032100690201953,
+   "z_drop_mm": 149.16133093503177,
+   "joint_range": 0.4233042277840215,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 8,
+    "shape": 5,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_5_L_L_8_vertical_n_36.npy",
+   "N": 38,
+   "r_l1_m": 0.0027907136493857494,
+   "off_m": [
+    0.01895068798746058,
+    -0.07123647214989612,
+    -0.1491565270289794
+   ],
+   "force_peak_N": 15.167498726071953,
+   "force_p50_N": 4.3816388137552895,
+   "force_last_N": 13.645288708482758,
+   "torque_peak_Nm": 1.5097964155015002,
+   "z_drop_mm": 163.61210126340623,
+   "joint_range": 0.40754726140472375,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 8,
+    "shape": 5,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_5_L_L_8_vertical_n_55.npy",
+   "N": 52,
+   "r_l1_m": 0.004241983042884303,
+   "off_m": [
+    0.012065153825532637,
+    0.07360013333754112,
+    -0.07848074704125857
+   ],
+   "force_peak_N": 16.502377349418616,
+   "force_p50_N": 5.590235268695778,
+   "force_last_N": 16.502377349418616,
+   "torque_peak_Nm": 1.6285142094348453,
+   "z_drop_mm": 163.18743100574304,
+   "joint_range": 1.6624633543948941,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 8,
+    "shape": 5,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_5_L_S_5_vertical_n_8.npy",
+   "N": 30,
+   "r_l1_m": 0.0028475721871027656,
+   "off_m": [
+    -0.006877959261496258,
+    -0.0027455798972865486,
+    -0.09337732099565926
+   ],
+   "force_peak_N": 16.23584131289636,
+   "force_p50_N": 5.41881161508519,
+   "force_last_N": 6.349535086256599,
+   "torque_peak_Nm": 1.7572114254222868,
+   "z_drop_mm": 229.0280513099285,
+   "joint_range": 0.5357974773162465,
+   "info": {
+    "length": "S",
+    "size": "L",
+    "color": 5,
+    "shape": 5,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_6_L_L_1_vertical_n_22.npy",
+   "N": 36,
+   "r_l1_m": 0.0032674729647170107,
+   "off_m": [
+    0.013812447159530006,
+    0.01428559348600078,
+    -0.11641102222618185
+   ],
+   "force_peak_N": 18.528871672636242,
+   "force_p50_N": 9.924007713840655,
+   "force_last_N": 17.195224916199944,
+   "torque_peak_Nm": 1.9751001130990253,
+   "z_drop_mm": 151.21960447927367,
+   "joint_range": 0.3569082244629391,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 1,
+    "shape": 6,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_6_L_L_1_vertical_n_28.npy",
+   "N": 37,
+   "r_l1_m": 0.0033363836516521464,
+   "off_m": [
+    0.06603973677679864,
+    0.05792600565066172,
+    -0.1435887299971595
+   ],
+   "force_peak_N": 14.599283136024336,
+   "force_p50_N": 8.611629855005582,
+   "force_last_N": 8.672262546735091,
+   "torque_peak_Nm": 1.3874323013377214,
+   "z_drop_mm": 145.39500518425626,
+   "joint_range": 0.41017198286379797,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 1,
+    "shape": 6,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_6_L_L_1_vertical_n_7.npy",
+   "N": 25,
+   "r_l1_m": 0.001631399340825067,
+   "off_m": [
+    0.0020318021524136642,
+    0.01891049099191408,
+    -0.09803540885641096
+   ],
+   "force_peak_N": 12.373844884478432,
+   "force_p50_N": 3.458069423306418,
+   "force_last_N": 10.497972390700541,
+   "torque_peak_Nm": 1.2350572497229193,
+   "z_drop_mm": 151.83902018266153,
+   "joint_range": 0.3600826306652922,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 1,
+    "shape": 6,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_6_L_S_3_vertical_n_25.npy",
+   "N": 26,
+   "r_l1_m": 0.002046636894824022,
+   "off_m": [
+    -0.017251265858923226,
+    -0.00291167332256706,
+    -0.07505704669813762
+   ],
+   "force_peak_N": 15.060129687278959,
+   "force_p50_N": 6.475986547013412,
+   "force_last_N": 5.954655583340727,
+   "torque_peak_Nm": 1.6047734729025256,
+   "z_drop_mm": 191.87621185612275,
+   "joint_range": 0.457751110389526,
+   "info": {
+    "length": "S",
+    "size": "L",
+    "color": 3,
+    "shape": 6,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_7_L_L_3_vertical_n_34.npy",
+   "N": 56,
+   "r_l1_m": 0.0030327445818797375,
+   "off_m": [
+    -0.03193509028630026,
+    -0.007013730911107324,
+    -0.05694669874534716
+   ],
+   "force_peak_N": 16.87766801360258,
+   "force_p50_N": 5.351220253570716,
+   "force_last_N": 15.93538694248802,
+   "torque_peak_Nm": 1.9717219574074454,
+   "z_drop_mm": 160.22505114835994,
+   "joint_range": 1.507188138436345,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 3,
+    "shape": 7,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_7_L_L_3_vertical_n_4.npy",
+   "N": 27,
+   "r_l1_m": 0.0018897949553048235,
+   "off_m": [
+    0.015560173197905924,
+    0.04980379590423553,
+    -0.09313742542335182
+   ],
+   "force_peak_N": 15.933185336309412,
+   "force_p50_N": 5.669681204314562,
+   "force_last_N": 15.765996841632274,
+   "torque_peak_Nm": 1.7162995056089703,
+   "z_drop_mm": 158.06211196663597,
+   "joint_range": 0.37232043161300904,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 3,
+    "shape": 7,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_7_L_L_3_vertical_n_74.npy",
+   "N": 58,
+   "r_l1_m": 0.004806977788015345,
+   "off_m": [
+    -0.010406614615681042,
+    0.06394037917975046,
+    -0.048222097518313245
+   ],
+   "force_peak_N": 11.883648446419423,
+   "force_p50_N": 5.111296923315562,
+   "force_last_N": 11.883648446419423,
+   "torque_peak_Nm": 2.6450883013108335,
+   "z_drop_mm": 171.0359566313943,
+   "joint_range": 1.588456928488721,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 3,
+    "shape": 7,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_7_L_S_2_vertical_n_12.npy",
+   "N": 39,
+   "r_l1_m": 0.005879933048969908,
+   "off_m": [
+    0.0013321433903570323,
+    0.025638123499615778,
+    -0.09497727123840899
+   ],
+   "force_peak_N": 15.881684106103316,
+   "force_p50_N": 5.938562449872866,
+   "force_last_N": 15.685828597955489,
+   "torque_peak_Nm": 1.6371331172332937,
+   "z_drop_mm": 208.06293040761113,
+   "joint_range": 0.5760605660514655,
+   "info": {
+    "length": "S",
+    "size": "L",
+    "color": 2,
+    "shape": 7,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_8_L_L_6_vertical_n_13.npy",
+   "N": 36,
+   "r_l1_m": 0.002083666106310095,
+   "off_m": [
+    -0.0150277163032711,
+    -0.0035976184649650494,
+    -0.08261422680342717
+   ],
+   "force_peak_N": 10.809015172404838,
+   "force_p50_N": 3.984964977499857,
+   "force_last_N": 5.0127350845446275,
+   "torque_peak_Nm": 1.2762238528558674,
+   "z_drop_mm": 145.19648277182037,
+   "joint_range": 1.137172748830062,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 6,
+    "shape": 8,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_8_L_L_6_vertical_n_59.npy",
+   "N": 31,
+   "r_l1_m": 0.0039627910969987894,
+   "off_m": [
+    -0.020403022448157393,
+    -8.050863041340894e-05,
+    -0.06711427065937767
+   ],
+   "force_peak_N": 13.313581660914856,
+   "force_p50_N": 3.9003295138681637,
+   "force_last_N": 7.908004758954744,
+   "torque_peak_Nm": 1.2885910982208657,
+   "z_drop_mm": 152.9214525561029,
+   "joint_range": 1.2746332306421757,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 6,
+    "shape": 8,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_8_L_L_6_vertical_n_62.npy",
+   "N": 28,
+   "r_l1_m": 0.002516121923013767,
+   "off_m": [
+    0.007476239690119235,
+    0.039904976485890864,
+    -0.0924647942473463
+   ],
+   "force_peak_N": 19.40526999089345,
+   "force_p50_N": 8.52321535158714,
+   "force_last_N": 19.40526999089345,
+   "torque_peak_Nm": 1.4435097797751164,
+   "z_drop_mm": 143.868456232558,
+   "joint_range": 1.076811911997362,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 6,
+    "shape": 8,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_8_L_L_6_vertical_n_7.npy",
+   "N": 16,
+   "r_l1_m": 0.0012765905696948295,
+   "off_m": [
+    -0.0019210578205962059,
+    -0.001931650209715502,
+    -0.09853585289253136
+   ],
+   "force_peak_N": 7.7868315242348585,
+   "force_p50_N": 4.055602036334683,
+   "force_last_N": 5.554533839900945,
+   "torque_peak_Nm": 1.6178180092458696,
+   "z_drop_mm": 138.32335102464825,
+   "joint_range": 0.3301952257490255,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 6,
+    "shape": 8,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_8_L_S_4_vertical_n_41.npy",
+   "N": 34,
+   "r_l1_m": 0.002925681163395877,
+   "off_m": [
+    -0.011938403085569926,
+    0.021272894219962465,
+    -0.07663707561071531
+   ],
+   "force_peak_N": 15.04285585253863,
+   "force_p50_N": 4.4031419234392475,
+   "force_last_N": 15.04285585253863,
+   "torque_peak_Nm": 1.1703689418300556,
+   "z_drop_mm": 201.39054399842277,
+   "joint_range": 0.5366387889679389,
+   "info": {
+    "length": "S",
+    "size": "L",
+    "color": 4,
+    "shape": 8,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_9_L_L_4_vertical_n_0.npy",
+   "N": 36,
+   "r_l1_m": 0.0027487875371767045,
+   "off_m": [
+    0.030137367906433565,
+    0.04481129581731519,
+    -0.11380033329188693
+   ],
+   "force_peak_N": 15.934668743313322,
+   "force_p50_N": 4.029473900130521,
+   "force_last_N": 15.458595440410154,
+   "torque_peak_Nm": 1.620867862297961,
+   "z_drop_mm": 158.31069169433994,
+   "joint_range": 0.43536645601568313,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 4,
+    "shape": 9,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_9_L_L_4_vertical_n_12.npy",
+   "N": 38,
+   "r_l1_m": 0.00260313339183627,
+   "off_m": [
+    0.0046210964403003985,
+    0.0272777679737371,
+    -0.09111618270544405
+   ],
+   "force_peak_N": 18.602749685242372,
+   "force_p50_N": 6.437876039845223,
+   "force_last_N": 14.098327419788475,
+   "torque_peak_Nm": 1.4434939924422403,
+   "z_drop_mm": 152.11835972532097,
+   "joint_range": 0.31800686645958054,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 4,
+    "shape": 9,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_9_L_L_4_vertical_n_25.npy",
+   "N": 40,
+   "r_l1_m": 0.0026605754221799014,
+   "off_m": [
+    0.006731545278499618,
+    0.040224466209032556,
+    -0.09432996208548242
+   ],
+   "force_peak_N": 14.328056684655342,
+   "force_p50_N": 4.694153076020129,
+   "force_last_N": 10.635642713564623,
+   "torque_peak_Nm": 1.4737453067475943,
+   "z_drop_mm": 164.19624765741827,
+   "joint_range": 0.45545287000087065,
+   "info": {
+    "length": "L",
+    "size": "L",
+    "color": 4,
+    "shape": 9,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  },
+  {
+   "file": "insert_only_9_L_S_1_vertical_n_0.npy",
+   "N": 31,
+   "r_l1_m": 0.00493025708941905,
+   "off_m": [
+    -0.00943127310223979,
+    -0.010678146300268282,
+    -0.09364152950491536
+   ],
+   "force_peak_N": 18.007870684200473,
+   "force_p50_N": 3.901517871341667,
+   "force_last_N": 18.007870684200473,
+   "torque_peak_Nm": 1.562560455147712,
+   "z_drop_mm": 227.3912002638222,
+   "joint_range": 0.5698840856692713,
+   "info": {
+    "length": "S",
+    "size": "L",
+    "color": 1,
+    "shape": 9,
+    "angle": "vertical",
+    "distractor": "n"
+   }
+  }
+ ]
+}

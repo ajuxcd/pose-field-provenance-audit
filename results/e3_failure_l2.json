@@ -1,0 +1,1594 @@
+[
+ {
+  "file": "二次抓取__franka2_gather_strawberries__0306_141256.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 461,
+  "n_segments": 4,
+  "n_used": 449,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00148,
+   -0.00095,
+   -0.00612
+  ],
+  "pos_median_m": 0.015921047663980094,
+  "pos_p95_m": 0.036513570592952814,
+  "pos_max_m": 0.04187653198747582,
+  "pos_end_median_m": 0.024847129781516725,
+  "seg_pos_end_m": [
+   0.02431267152347737,
+   0.016150360258422834,
+   0.03166585936054439,
+   0.013213028544398906
+  ],
+  "seg_rot_end_deg": [
+   1.689788717682528,
+   0.8161018879617409,
+   1.2671175047312346,
+   0.2934399702221867
+  ],
+  "rot_median_deg": 0.8862226663298012,
+  "rot_end_median_deg": 1.2466143434760855,
+  "rot_p95_deg": 1.9997553636233647,
+  "rot_max_deg": 2.9602522304893912,
+  "rot_raw_median_deg": 45.07883577981475,
+  "verdict": "OK"
+ },
+ {
+  "file": "二次抓取__franka2_get_the_cubes_in_line__0318_123209.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 335,
+  "n_segments": 3,
+  "n_used": 326,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00163,
+   -0.00045,
+   -0.00629
+  ],
+  "pos_median_m": 0.008274171964100293,
+  "pos_p95_m": 0.023171524860002225,
+  "pos_max_m": 0.03081915152845899,
+  "pos_end_median_m": 0.007963645160317685,
+  "seg_pos_end_m": [
+   0.006607811707644939,
+   0.02829967035442558,
+   0.0019153544222769712
+  ],
+  "seg_rot_end_deg": [
+   0.35649934532846744,
+   0.37347168928900987,
+   0.2714009690559085
+  ],
+  "rot_median_deg": 0.3254929775930314,
+  "rot_end_median_deg": 0.3601870027928185,
+  "rot_p95_deg": 0.9807983999761488,
+  "rot_max_deg": 1.6306677067609363,
+  "rot_raw_median_deg": 44.97601358112789,
+  "verdict": "OK"
+ },
+ {
+  "file": "二次抓取__franka2_lay_out_the_fork__0312_100608.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 406,
+  "n_segments": 3,
+  "n_used": 397,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.0024,
+   -0.00063,
+   -0.01018
+  ],
+  "pos_median_m": 0.0061053501265201145,
+  "pos_p95_m": 0.027462806824954937,
+  "pos_max_m": 0.03717961053681058,
+  "pos_end_median_m": 0.012521602984170184,
+  "seg_pos_end_m": [
+   0.011011442655681497,
+   0.012556042860836033,
+   0.03526855518747356
+  ],
+  "seg_rot_end_deg": [
+   1.9687899860813078,
+   0.3949206395862209,
+   0.6962905376697797
+  ],
+  "rot_median_deg": 0.4420727320801972,
+  "rot_end_median_deg": 0.6789343281726279,
+  "rot_p95_deg": 1.4995547723352425,
+  "rot_max_deg": 2.479151161112432,
+  "rot_raw_median_deg": 45.03303973088934,
+  "verdict": "OK"
+ },
+ {
+  "file": "二次抓取__franka2_lay_out_the_spoon__0311_185008.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 360,
+  "n_segments": 3,
+  "n_used": 351,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00157,
+   -1e-05,
+   -0.00892
+  ],
+  "pos_median_m": 0.0055159445719391575,
+  "pos_p95_m": 0.023621938097460125,
+  "pos_max_m": 0.03713585453589755,
+  "pos_end_median_m": 0.011006699119278788,
+  "seg_pos_end_m": [
+   0.011846847242195811,
+   0.00914563364559624,
+   0.0051548579330091444
+  ],
+  "seg_rot_end_deg": [
+   0.6054395989726886,
+   0.46496223204992077,
+   0.1788314757893379
+  ],
+  "rot_median_deg": 0.4500510317576767,
+  "rot_end_median_deg": 0.46707942616473197,
+  "rot_p95_deg": 1.0963585404651264,
+  "rot_max_deg": 1.910823378347953,
+  "rot_raw_median_deg": 45.03569447163167,
+  "verdict": "OK"
+ },
+ {
+  "file": "二次抓取__franka2_move_apple_from_plate_to_bowl__0314_164551.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 323,
+  "n_segments": 3,
+  "n_used": 314,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.0012,
+   -0.00085,
+   -0.00704
+  ],
+  "pos_median_m": 0.006143110285124799,
+  "pos_p95_m": 0.04114020820726316,
+  "pos_max_m": 0.054850776092588795,
+  "pos_end_median_m": 0.008897132794434565,
+  "seg_pos_end_m": [
+   0.007034258286170706,
+   0.027835275000016715,
+   0.002266531626579248
+  ],
+  "seg_rot_end_deg": [
+   0.37878580181935745,
+   0.6834018376542046,
+   0.2176470743739915
+  ],
+  "rot_median_deg": 0.5547809148234479,
+  "rot_end_median_deg": 0.42250472595670585,
+  "rot_p95_deg": 2.9548540482806223,
+  "rot_max_deg": 4.755826678346667,
+  "rot_raw_median_deg": 45.018397577138884,
+  "verdict": "OK"
+ },
+ {
+  "file": "动作不流畅__franka2_move_apple_from_plate_to_bowl__0314_163619.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 470,
+  "n_segments": 4,
+  "n_used": 458,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00148,
+   -0.00028,
+   -0.00725
+  ],
+  "pos_median_m": 0.00529562536605071,
+  "pos_p95_m": 0.028978590895994322,
+  "pos_max_m": 0.039722101151690566,
+  "pos_end_median_m": 0.013957724562676455,
+  "seg_pos_end_m": [
+   0.0025754675888181983,
+   0.014578264989566126,
+   0.019446708727408113,
+   0.0023934714965285174
+  ],
+  "seg_rot_end_deg": [
+   0.08266676493472165,
+   1.2279691704508653,
+   0.7230543867531334,
+   0.42427194700224347
+  ],
+  "rot_median_deg": 0.39972544018901923,
+  "rot_end_median_deg": 0.6411521639275536,
+  "rot_p95_deg": 2.067781102240554,
+  "rot_max_deg": 2.6742958607128458,
+  "rot_raw_median_deg": 45.01891110633255,
+  "verdict": "OK"
+ },
+ {
+  "file": "动作不流畅__franka2_move_garnet_from_plate_to_bowl__0317_162646.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 463,
+  "n_segments": 4,
+  "n_used": 451,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00041,
+   -0.00063,
+   -0.00564
+  ],
+  "pos_median_m": 0.005836521326484541,
+  "pos_p95_m": 0.04050229256025966,
+  "pos_max_m": 0.04957461735365095,
+  "pos_end_median_m": 0.0033674120832902473,
+  "seg_pos_end_m": [
+   0.0030527391544591803,
+   0.004916823717595067,
+   0.0037427437998233896,
+   0.0015076746236682864
+  ],
+  "seg_rot_end_deg": [
+   1.015236780086932,
+   0.3879314374885302,
+   0.9234660261291961,
+   0.05604246298396614
+  ],
+  "rot_median_deg": 0.9963223470998648,
+  "rot_end_median_deg": 0.8463610568817715,
+  "rot_p95_deg": 4.2474039024204915,
+  "rot_max_deg": 4.899721288588194,
+  "rot_raw_median_deg": 45.06645743517582,
+  "verdict": "OK"
+ },
+ {
+  "file": "动作不流畅__franka2_pick_place_apple_on_the_plate__0310_105008.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 489,
+  "n_segments": 4,
+  "n_used": 477,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00117,
+   -0.00096,
+   -0.00774
+  ],
+  "pos_median_m": 0.009322048605007224,
+  "pos_p95_m": 0.03385923147216805,
+  "pos_max_m": 0.04429108134042728,
+  "pos_end_median_m": 0.01975373229977715,
+  "seg_pos_end_m": [
+   0.03859792425786048,
+   0.012097355864865393,
+   0.014848998687906895,
+   0.0019112886729395887
+  ],
+  "seg_rot_end_deg": [
+   1.3530777749415477,
+   0.324863634820564,
+   0.4438919955171168,
+   0.20109522213807224
+  ],
+  "rot_median_deg": 0.5207297069792834,
+  "rot_end_median_deg": 0.5518295350222145,
+  "rot_p95_deg": 1.332831822860078,
+  "rot_max_deg": 1.9249574612072669,
+  "rot_raw_median_deg": 44.9554822439724,
+  "verdict": "OK"
+ },
+ {
+  "file": "动作不流畅__franka2_slide_close_the_drawer__0310_160147.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 369,
+  "n_segments": 3,
+  "n_used": 360,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00064,
+   -0.00075,
+   -0.00582
+  ],
+  "pos_median_m": 0.0041368270678593,
+  "pos_p95_m": 0.029242551493894906,
+  "pos_max_m": 0.03839834340477617,
+  "pos_end_median_m": 0.005998386823580379,
+  "seg_pos_end_m": [
+   0.005592771104708096,
+   0.026382884759783336,
+   0.0064069004818021365
+  ],
+  "seg_rot_end_deg": [
+   0.488160012477825,
+   2.1053859115283413,
+   0.9748806123606636
+  ],
+  "rot_median_deg": 0.5749251507637456,
+  "rot_end_median_deg": 0.9748806123606636,
+  "rot_p95_deg": 2.2807162395273615,
+  "rot_max_deg": 3.6485803525863467,
+  "rot_raw_median_deg": 45.044492302865066,
+  "verdict": "OK"
+ },
+ {
+  "file": "动作不流畅__franka2_slide_open_the_drawer__0310_181847.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 381,
+  "n_segments": 3,
+  "n_used": 372,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00129,
+   0.00027,
+   -0.00536
+  ],
+  "pos_median_m": 0.0030161275661072648,
+  "pos_p95_m": 0.026514266708134854,
+  "pos_max_m": 0.0396349081589043,
+  "pos_end_median_m": 0.003647141311432603,
+  "seg_pos_end_m": [
+   0.004762585285690193,
+   0.0020671412676537995,
+   0.008558771505184528
+  ],
+  "seg_rot_end_deg": [
+   0.5982160452654756,
+   0.06046884467440551,
+   0.3474067487466935
+  ],
+  "rot_median_deg": 0.5072293436081989,
+  "rot_end_median_deg": 0.309923997684866,
+  "rot_p95_deg": 3.5717221843689813,
+  "rot_max_deg": 6.568244763649438,
+  "rot_raw_median_deg": 45.138918387845834,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__franka2_lay_out_the_dish__0311_155610.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 254,
+  "n_segments": 2,
+  "n_used": 248,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00092,
+   0.0006,
+   -0.00594
+  ],
+  "pos_median_m": 0.01386697434093125,
+  "pos_p95_m": 0.041836237483111834,
+  "pos_max_m": 0.05333171834737423,
+  "pos_end_median_m": 0.009914842326129086,
+  "seg_pos_end_m": [
+   0.009914842326129086,
+   0.009844772664284053
+  ],
+  "seg_rot_end_deg": [
+   0.4350128272290632,
+   0.570822338789648
+  ],
+  "rot_median_deg": 0.6867339505629282,
+  "rot_end_median_deg": 0.4831142862247065,
+  "rot_p95_deg": 1.8011937546467889,
+  "rot_max_deg": 2.7386335651831155,
+  "rot_raw_median_deg": 45.01679602920507,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__franka2_lay_out_the_dish__f777d7e3.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 231,
+  "n_segments": 2,
+  "n_used": 225,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00022,
+   0.00051,
+   -0.0074
+  ],
+  "pos_median_m": 0.013638852935366454,
+  "pos_p95_m": 0.045554396537274514,
+  "pos_max_m": 0.05476830097613459,
+  "pos_end_median_m": 0.023206329935069193,
+  "seg_pos_end_m": [
+   0.024228496565309624,
+   0.0065142963881397176
+  ],
+  "seg_rot_end_deg": [
+   1.6691912508658482,
+   1.0017550196716611
+  ],
+  "rot_median_deg": 0.9490846150240557,
+  "rot_end_median_deg": 1.068332590252095,
+  "rot_p95_deg": 2.3550280129938894,
+  "rot_max_deg": 3.113382301505574,
+  "rot_raw_median_deg": 44.9387292969911,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__franka_hang_towel_on_the_rack__0305_150933.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 333,
+  "n_segments": 3,
+  "n_used": 324,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00129,
+   0.00014,
+   -0.00842
+  ],
+  "pos_median_m": 0.008160615342114963,
+  "pos_p95_m": 0.023049108453445745,
+  "pos_max_m": 0.03132806733556588,
+  "pos_end_median_m": 0.006885426758142026,
+  "seg_pos_end_m": [
+   0.0026532827453733623,
+   0.023645966326634234,
+   0.006885426758142026
+  ],
+  "seg_rot_end_deg": [
+   0.10289553481142893,
+   1.4996837151031401,
+   0.8330344389169597
+  ],
+  "rot_median_deg": 0.3552627392120894,
+  "rot_end_median_deg": 0.8330344389169597,
+  "rot_p95_deg": 1.0583230748755175,
+  "rot_max_deg": 1.910460032636953,
+  "rot_raw_median_deg": 45.00370880274629,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__franka_hang_towel_on_the_rack__243bc1b5.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 345,
+  "n_segments": 3,
+  "n_used": 336,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00125,
+   -3e-05,
+   -0.00894
+  ],
+  "pos_median_m": 0.009222864350121955,
+  "pos_p95_m": 0.02444305509646462,
+  "pos_max_m": 0.02779878260497789,
+  "pos_end_median_m": 0.002872935133217904,
+  "seg_pos_end_m": [
+   0.002726271981561801,
+   0.005628657298701475,
+   0.002530874858904416
+  ],
+  "seg_rot_end_deg": [
+   0.09596066472803441,
+   1.1808717171995244,
+   0.5470153787753687
+  ],
+  "rot_median_deg": 0.41702893272140173,
+  "rot_end_median_deg": 0.2810130789405558,
+  "rot_p95_deg": 1.3621747134634727,
+  "rot_max_deg": 2.116231878163051,
+  "rot_raw_median_deg": 45.01116306216191,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__franka_hang_towel_on_the_rack__9be1df5c.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 324,
+  "n_segments": 3,
+  "n_used": 315,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00068,
+   0.00019,
+   -0.00802
+  ],
+  "pos_median_m": 0.015287895156170085,
+  "pos_p95_m": 0.026601624432743613,
+  "pos_max_m": 0.029097861703735753,
+  "pos_end_median_m": 0.017659249081252007,
+  "seg_pos_end_m": [
+   0.004797186721544578,
+   0.02229874555936925,
+   0.017659249081252007
+  ],
+  "seg_rot_end_deg": [
+   0.9420950802456826,
+   3.715523238752258,
+   0.32313641155616013
+  ],
+  "rot_median_deg": 1.2536357475174802,
+  "rot_end_median_deg": 0.9983696103685298,
+  "rot_p95_deg": 3.7578945414877247,
+  "rot_max_deg": 4.756225202309734,
+  "rot_raw_median_deg": 45.02108343727771,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__franka_hang_towel_on_the_rack__bf3ad10f.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 294,
+  "n_segments": 2,
+  "n_used": 288,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00053,
+   -0.00043,
+   -0.00691
+  ],
+  "pos_median_m": 0.01581001376472657,
+  "pos_p95_m": 0.027440101470243422,
+  "pos_max_m": 0.03511247208778591,
+  "pos_end_median_m": 0.016518376979260348,
+  "seg_pos_end_m": [
+   0.022133857357969317,
+   0.01229283815926011
+  ],
+  "seg_rot_end_deg": [
+   0.8916566059742258,
+   0.5170128140473541
+  ],
+  "rot_median_deg": 0.8356282606608334,
+  "rot_end_median_deg": 0.8043934697365891,
+  "rot_p95_deg": 2.1326991148177528,
+  "rot_max_deg": 2.8888856774609932,
+  "rot_raw_median_deg": 44.994280150624505,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__franka_hang_towel_on_the_rack__f0cf0a53.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 352,
+  "n_segments": 3,
+  "n_used": 343,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00076,
+   -0.00057,
+   -0.00814
+  ],
+  "pos_median_m": 0.012315857086055971,
+  "pos_p95_m": 0.02526202984820217,
+  "pos_max_m": 0.03351202040198475,
+  "pos_end_median_m": 0.0035215082217299972,
+  "seg_pos_end_m": [
+   0.003524558622571067,
+   0.002718996023310755,
+   0.01086834266206329
+  ],
+  "seg_rot_end_deg": [
+   0.22292029666491894,
+   0.4359351396073799,
+   1.1255499591523688
+  ],
+  "rot_median_deg": 0.6545410936475713,
+  "rot_end_median_deg": 0.41479248002354685,
+  "rot_p95_deg": 1.5661006509226385,
+  "rot_max_deg": 1.775111311365795,
+  "rot_raw_median_deg": 45.003195122575455,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__two_arm_franka_01_collect_banana__0322_143124.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 158,
+  "n_segments": 2,
+  "n_used": 152,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00131,
+   -0.00552,
+   0.00041
+  ],
+  "pos_median_m": 0.014612180145170935,
+  "pos_p95_m": 0.14323945001571295,
+  "pos_max_m": 0.18190361901774907,
+  "pos_end_median_m": 0.007841815040865363,
+  "seg_pos_end_m": [
+   0.008000305741082297,
+   0.0076251857693856555
+  ],
+  "seg_rot_end_deg": [
+   1.1357004509966302,
+   0.06003912892254424
+  ],
+  "rot_median_deg": 2.140001575658193,
+  "rot_end_median_deg": 1.1287573397000177,
+  "rot_p95_deg": 8.170615315373443,
+  "rot_max_deg": 10.28390891045729,
+  "rot_raw_median_deg": 44.95628863962459,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__two_arm_franka_01_collect_banana__4a1d919a.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 218,
+  "n_segments": 2,
+  "n_used": 212,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   0.00139,
+   -0.00056,
+   0.00033
+  ],
+  "pos_median_m": 0.0055619998012506585,
+  "pos_p95_m": 0.12617420226806314,
+  "pos_max_m": 0.1838983549825308,
+  "pos_end_median_m": 0.0021209685325851305,
+  "seg_pos_end_m": [
+   0.0020562640504085566,
+   0.013329764941292963
+  ],
+  "seg_rot_end_deg": [
+   0.23290402756889153,
+   0.7751774788241209
+  ],
+  "rot_median_deg": 1.0943085358477653,
+  "rot_end_median_deg": 0.32142001672820264,
+  "rot_p95_deg": 8.923258108904164,
+  "rot_max_deg": 10.472857366128792,
+  "rot_raw_median_deg": 45.05791414151821,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__two_arm_franka_01_collect_banana__8317ad11.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 215,
+  "n_segments": 2,
+  "n_used": 209,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   0.00057,
+   0.00051,
+   2e-05
+  ],
+  "pos_median_m": 0.0074248836531446835,
+  "pos_p95_m": 0.09209480003415138,
+  "pos_max_m": 0.11923647773764787,
+  "pos_end_median_m": 0.0015560117267438744,
+  "seg_pos_end_m": [
+   0.001417637277252395,
+   0.0037762480089544997
+  ],
+  "seg_rot_end_deg": [
+   0.35598355159741313,
+   1.8429124864964908
+  ],
+  "rot_median_deg": 1.1743693436577578,
+  "rot_end_median_deg": 0.4433162141296432,
+  "rot_p95_deg": 6.204383362617873,
+  "rot_max_deg": 8.605272264729411,
+  "rot_raw_median_deg": 45.00894327353698,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__two_arm_franka_01_collect_banana__cb0e2342.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 165,
+  "n_segments": 2,
+  "n_used": 159,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   0.00082,
+   -0.00289,
+   0.00073
+  ],
+  "pos_median_m": 0.00964294049777631,
+  "pos_p95_m": 0.1270201440588044,
+  "pos_max_m": 0.14614942209842752,
+  "pos_end_median_m": 0.003623578820764522,
+  "seg_pos_end_m": [
+   0.0036415550005882836,
+   0.003605602640940761
+  ],
+  "seg_rot_end_deg": [
+   0.6947855652388,
+   0.021779638834837033
+  ],
+  "rot_median_deg": 2.7617899647797355,
+  "rot_end_median_deg": 0.6578231369415987,
+  "rot_p95_deg": 17.339014341858555,
+  "rot_max_deg": 19.75501709576362,
+  "rot_raw_median_deg": 45.04925437403912,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__two_arm_franka_01_stack_bowl__0321_142042.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 190,
+  "n_segments": 2,
+  "n_used": 184,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00077,
+   -0.00065,
+   -0.00056
+  ],
+  "pos_median_m": 0.022461315302181026,
+  "pos_p95_m": 0.08674239542174635,
+  "pos_max_m": 0.10591237847858818,
+  "pos_end_median_m": 0.012748174363515549,
+  "seg_pos_end_m": [
+   0.010110777834189207,
+   0.04215889114410612
+  ],
+  "seg_rot_end_deg": [
+   1.0735795029893156,
+   2.6194898509432143
+  ],
+  "rot_median_deg": 2.8272187301415515,
+  "rot_end_median_deg": 1.275961253112856,
+  "rot_p95_deg": 5.902871435321214,
+  "rot_max_deg": 7.6519463373265575,
+  "rot_raw_median_deg": 44.62779161257616,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__two_arm_franka_01_stack_bowl__1dd85157.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 204,
+  "n_segments": 2,
+  "n_used": 198,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00052,
+   -0.00109,
+   -0.00164
+  ],
+  "pos_median_m": 0.026694673104361286,
+  "pos_p95_m": 0.09209763982790267,
+  "pos_max_m": 0.17544605183267695,
+  "pos_end_median_m": 0.029803597233848917,
+  "seg_pos_end_m": [
+   0.03425267807915615,
+   0.016548721372941715
+  ],
+  "seg_rot_end_deg": [
+   2.095493800849059,
+   1.6974539152158101
+  ],
+  "rot_median_deg": 1.89909929980772,
+  "rot_end_median_deg": 1.872799227878913,
+  "rot_p95_deg": 5.446564364757144,
+  "rot_max_deg": 7.916356426583066,
+  "rot_raw_median_deg": 44.72722536433041,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__two_arm_franka_01_stack_bowl__5772d06a.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 157,
+  "n_segments": 2,
+  "n_used": 151,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   0.00177,
+   -0.00316,
+   -0.00098
+  ],
+  "pos_median_m": 0.04000003953459731,
+  "pos_p95_m": 0.12355039910987803,
+  "pos_max_m": 0.15898677368166567,
+  "pos_end_median_m": 0.01293144394423932,
+  "seg_pos_end_m": [
+   0.012957401483719273,
+   0.010029687719638535
+  ],
+  "seg_rot_end_deg": [
+   1.8194843871550423,
+   0.4633981000141809
+  ],
+  "rot_median_deg": 2.7129239304827344,
+  "rot_end_median_deg": 1.7146723237641268,
+  "rot_p95_deg": 5.381556702453686,
+  "rot_max_deg": 6.423816698842344,
+  "rot_raw_median_deg": 44.929987291962554,
+  "verdict": "OK"
+ },
+ {
+  "file": "失败放置__two_arm_franka_01_water_cup__0325_152533.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 385,
+  "n_segments": 3,
+  "n_used": 376,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00102,
+   0.00222,
+   -0.00011
+  ],
+  "pos_median_m": 0.006730404887333408,
+  "pos_p95_m": 0.09973652707689833,
+  "pos_max_m": 0.1228203089550588,
+  "pos_end_median_m": 0.03408765865077075,
+  "seg_pos_end_m": [
+   0.004380291603416869,
+   0.11182457198214338,
+   0.03408765865077075
+  ],
+  "seg_rot_end_deg": [
+   1.7033114169770154,
+   7.730118312709344,
+   4.80537992479413
+  ],
+  "rot_median_deg": 1.357032588310428,
+  "rot_end_median_deg": 3.669880245300133,
+  "rot_p95_deg": 12.282701652747182,
+  "rot_max_deg": 21.056715672071004,
+  "rot_raw_median_deg": 45.374494822800074,
+  "verdict": "OK"
+ },
+ {
+  "file": "夹取前碰撞__franka2_add_seasoning__0313_105651.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 602,
+  "n_segments": 4,
+  "n_used": 588,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00118,
+   -0.00029,
+   -0.00734
+  ],
+  "pos_median_m": 0.015197065577956973,
+  "pos_p95_m": 0.0337941133371668,
+  "pos_max_m": 0.03987725882064352,
+  "pos_end_median_m": 0.011416849415206435,
+  "seg_pos_end_m": [
+   0.002854510897773731,
+   0.005916106229489204,
+   0.0320164001567713,
+   0.021072343839818305
+  ],
+  "seg_rot_end_deg": [
+   1.6912877087915057,
+   1.9789242899996622,
+   4.181627142955796,
+   1.5909888279916908
+  ],
+  "rot_median_deg": 2.059426875798046,
+  "rot_end_median_deg": 1.977343698028439,
+  "rot_p95_deg": 4.350538748466526,
+  "rot_max_deg": 5.802217548537892,
+  "rot_raw_median_deg": 45.64303486437986,
+  "verdict": "OK"
+ },
+ {
+  "file": "夹取前碰撞__franka2_lay_out_the_spoon__0312_110809.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 191,
+  "n_segments": 2,
+  "n_used": 185,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00122,
+   -0.00072,
+   -0.00953
+  ],
+  "pos_median_m": 0.012372933521583945,
+  "pos_p95_m": 0.03722667437404729,
+  "pos_max_m": 0.0428516630603297,
+  "pos_end_median_m": 0.004756555307861532,
+  "seg_pos_end_m": [
+   0.004486463451771313,
+   0.005289376952802209
+  ],
+  "seg_rot_end_deg": [
+   0.3335933899718729,
+   0.9666729723524289
+  ],
+  "rot_median_deg": 0.5534101174962855,
+  "rot_end_median_deg": 0.4294581681744433,
+  "rot_p95_deg": 1.276565144759568,
+  "rot_max_deg": 1.4932573476060267,
+  "rot_raw_median_deg": 45.01356831639701,
+  "verdict": "OK"
+ },
+ {
+  "file": "夹取前碰撞__franka2_move_apple_from_plate_to_bowl__0314_165056.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 304,
+  "n_segments": 2,
+  "n_used": 294,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00097,
+   -0.00024,
+   -0.00721
+  ],
+  "pos_median_m": 0.007780369516636543,
+  "pos_p95_m": 0.03408810059022164,
+  "pos_max_m": 0.04212380677670223,
+  "pos_end_median_m": 0.006271889111269387,
+  "seg_pos_end_m": [
+   0.005724384727281356,
+   0.010062953404229498
+  ],
+  "seg_rot_end_deg": [
+   0.5058092384018011,
+   0.8103549315394492
+  ],
+  "rot_median_deg": 0.4530239032375659,
+  "rot_end_median_deg": 0.6599027899400569,
+  "rot_p95_deg": 1.953924328170223,
+  "rot_max_deg": 3.5448347567330587,
+  "rot_raw_median_deg": 45.03143935473374,
+  "verdict": "OK"
+ },
+ {
+  "file": "夹取前碰撞__franka2_move_garnet_from_plate_to_bowl__0317_165205.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 403,
+  "n_segments": 3,
+  "n_used": 394,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00064,
+   -0.00029,
+   -0.00503
+  ],
+  "pos_median_m": 0.007097451985793222,
+  "pos_p95_m": 0.04070419212067095,
+  "pos_max_m": 0.04977086346455832,
+  "pos_end_median_m": 0.003641714895351507,
+  "seg_pos_end_m": [
+   0.004320044768132104,
+   0.00675947769569537,
+   0.002351394504929703
+  ],
+  "seg_rot_end_deg": [
+   1.0081889054273212,
+   0.5442157392989967,
+   0.2994721516841563
+  ],
+  "rot_median_deg": 0.8638979345697014,
+  "rot_end_median_deg": 0.6645446720187421,
+  "rot_p95_deg": 3.112251348302335,
+  "rot_max_deg": 3.7724884281955693,
+  "rot_raw_median_deg": 44.933471452080084,
+  "verdict": "OK"
+ },
+ {
+  "file": "夹取前碰撞__franka2_move_lemon_from_plate_to_bowl__0317_133943.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 297,
+  "n_segments": 2,
+  "n_used": 291,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00079,
+   -0.00081,
+   -0.00615
+  ],
+  "pos_median_m": 0.014296843840330406,
+  "pos_p95_m": 0.04240918272359894,
+  "pos_max_m": 0.046760405957349815,
+  "pos_end_median_m": 0.007379302880758503,
+  "seg_pos_end_m": [
+   0.006549330755917885,
+   0.01379654403946791
+  ],
+  "seg_rot_end_deg": [
+   0.2887536519930388,
+   0.4361346585393323
+  ],
+  "rot_median_deg": 0.8600851838041663,
+  "rot_end_median_deg": 0.34960178851939205,
+  "rot_p95_deg": 2.2543213853459063,
+  "rot_max_deg": 2.6291011139164335,
+  "rot_raw_median_deg": 45.00293355586571,
+  "verdict": "OK"
+ },
+ {
+  "file": "夹爪出境__franka2_add_seasoning__0313_153441.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 591,
+  "n_segments": 4,
+  "n_used": 579,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00073,
+   -0.00083,
+   -0.00682
+  ],
+  "pos_median_m": 0.014564322032158877,
+  "pos_p95_m": 0.04568771658950233,
+  "pos_max_m": 0.051842993595622035,
+  "pos_end_median_m": 0.0033262468953074724,
+  "seg_pos_end_m": [
+   0.003044125823342181,
+   0.009565443915409966,
+   0.005278851071244723,
+   0.0024464154499628564
+  ],
+  "seg_rot_end_deg": [
+   1.842662701913044,
+   2.351690264211376,
+   2.876157815953659,
+   2.443107501511504
+  ],
+  "rot_median_deg": 2.4834033801655364,
+  "rot_end_median_deg": 2.2944541612021374,
+  "rot_p95_deg": 5.692496911224307,
+  "rot_max_deg": 7.145843698006975,
+  "rot_raw_median_deg": 45.26639489399078,
+  "verdict": "OK"
+ },
+ {
+  "file": "机械臂异常__two_arm_franka_01_collect_banana__0322_110548.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 285,
+  "n_segments": 2,
+  "n_used": 279,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   0.00226,
+   -0.00423,
+   -0.00017
+  ],
+  "pos_median_m": 0.02076180198707871,
+  "pos_p95_m": 0.13548109557697352,
+  "pos_max_m": 0.16318561681769927,
+  "pos_end_median_m": 0.005165300474500676,
+  "seg_pos_end_m": [
+   0.05214758773974942,
+   0.00397570220236119
+  ],
+  "seg_rot_end_deg": [
+   2.683666831024307,
+   0.45294195870727394
+  ],
+  "rot_median_deg": 1.4403307011432565,
+  "rot_end_median_deg": 0.5251671876152371,
+  "rot_p95_deg": 5.656833992310834,
+  "rot_max_deg": 7.627300625903416,
+  "rot_raw_median_deg": 44.81381521637037,
+  "verdict": "OK"
+ },
+ {
+  "file": "机械臂异常__two_arm_franka_01_collect_banana__0322_110732.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 230,
+  "n_segments": 2,
+  "n_used": 224,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   0.0013,
+   -0.00125,
+   -0.00075
+  ],
+  "pos_median_m": 0.004961503894449833,
+  "pos_p95_m": 0.11057407595182132,
+  "pos_max_m": 0.13362091497070114,
+  "pos_end_median_m": 0.0022911798045729594,
+  "seg_pos_end_m": [
+   0.0022911798045729594,
+   0.002168877512866198
+  ],
+  "seg_rot_end_deg": [
+   0.4489174217898266,
+   0.06828952321065372
+  ],
+  "rot_median_deg": 0.5554727947315536,
+  "rot_end_median_deg": 0.42715686310180107,
+  "rot_p95_deg": 5.253516274186611,
+  "rot_max_deg": 7.4500992687770315,
+  "rot_raw_median_deg": 45.023672341187634,
+  "verdict": "OK"
+ },
+ {
+  "file": "机械臂异常__two_arm_franka_01_collect_banana__0322_112019.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 372,
+  "n_segments": 3,
+  "n_used": 363,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   0.00103,
+   -0.00086,
+   -0.00035
+  ],
+  "pos_median_m": 0.008642045501945857,
+  "pos_p95_m": 0.09523894733279327,
+  "pos_max_m": 0.26402716652290237,
+  "pos_end_median_m": 0.0036186248142088644,
+  "seg_pos_end_m": [
+   0.02005153755817127,
+   0.0016017055870892912,
+   0.0036186248142088644
+  ],
+  "seg_rot_end_deg": [
+   1.7288962242985946,
+   0.20756872741893911,
+   0.47457893269042106
+  ],
+  "rot_median_deg": 0.8625859682741925,
+  "rot_end_median_deg": 0.47457893269042106,
+  "rot_p95_deg": 4.847671412078457,
+  "rot_max_deg": 24.73058864165134,
+  "rot_raw_median_deg": 44.93047555146088,
+  "verdict": "OK"
+ },
+ {
+  "file": "机械臂异常__two_arm_franka_01_collect_banana__0322_114926.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 258,
+  "n_segments": 2,
+  "n_used": 252,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   0.00125,
+   0.0001,
+   -0.00092
+  ],
+  "pos_median_m": 0.016239961024103345,
+  "pos_p95_m": 0.10372894791479516,
+  "pos_max_m": 0.15766178823041235,
+  "pos_end_median_m": 0.004243559355428226,
+  "seg_pos_end_m": [
+   0.009737264655090264,
+   0.0018557025339302766
+  ],
+  "seg_rot_end_deg": [
+   1.2453988089512054,
+   3.3536263789440435
+  ],
+  "rot_median_deg": 1.951341769962272,
+  "rot_end_median_deg": 2.058588862672367,
+  "rot_p95_deg": 5.760579200134747,
+  "rot_max_deg": 7.918506125682782,
+  "rot_raw_median_deg": 44.86331499915995,
+  "verdict": "OK"
+ },
+ {
+  "file": "机械臂异常__two_arm_franka_01_collect_banana__0322_142532.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 293,
+  "n_segments": 2,
+  "n_used": 287,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   0.00244,
+   -0.00238,
+   -0.00113
+  ],
+  "pos_median_m": 0.015266828429860603,
+  "pos_p95_m": 0.0986328543705931,
+  "pos_max_m": 0.15543735011299886,
+  "pos_end_median_m": 0.005526023900077194,
+  "seg_pos_end_m": [
+   0.01903933074434386,
+   0.003174313028123643
+  ],
+  "seg_rot_end_deg": [
+   1.3984575690022945,
+   1.5241496948186382
+  ],
+  "rot_median_deg": 2.2069999616019085,
+  "rot_end_median_deg": 1.513474537253979,
+  "rot_p95_deg": 8.56408502353929,
+  "rot_max_deg": 11.17678313284086,
+  "rot_raw_median_deg": 44.99405496291323,
+  "verdict": "OK"
+ },
+ {
+  "file": "目标移位__franka2_move_garnet_from_plate_to_bowl__0317_184558.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 270,
+  "n_segments": 2,
+  "n_used": 264,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00033,
+   -0.00029,
+   -0.00713
+  ],
+  "pos_median_m": 0.011861438863692175,
+  "pos_p95_m": 0.03343737491877987,
+  "pos_max_m": 0.03897440034795366,
+  "pos_end_median_m": 0.027547148321333842,
+  "seg_pos_end_m": [
+   0.029300956217410568,
+   0.0048537437704024595
+  ],
+  "seg_rot_end_deg": [
+   3.4204530806335907,
+   0.49255046477974884
+  ],
+  "rot_median_deg": 1.3397675202811659,
+  "rot_end_median_deg": 3.023872823396879,
+  "rot_p95_deg": 3.4783243752149473,
+  "rot_max_deg": 4.3685893279355685,
+  "rot_raw_median_deg": 45.02773580292995,
+  "verdict": "OK"
+ },
+ {
+  "file": "目标移位__franka2_slide_open_the_drawer__0310_183632.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 414,
+  "n_segments": 3,
+  "n_used": 405,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00109,
+   0.00033,
+   -0.00496
+  ],
+  "pos_median_m": 0.003794394775250132,
+  "pos_p95_m": 0.025647130268095262,
+  "pos_max_m": 0.03238202070510621,
+  "pos_end_median_m": 0.0019729529639648763,
+  "seg_pos_end_m": [
+   0.002451931075838295,
+   0.0013029880106530066,
+   0.01105140080327627
+  ],
+  "seg_rot_end_deg": [
+   0.3971791858977749,
+   0.04927695130369226,
+   0.9222350783127705
+  ],
+  "rot_median_deg": 0.5336231657409639,
+  "rot_end_median_deg": 0.30599729322777214,
+  "rot_p95_deg": 2.0376496390278844,
+  "rot_max_deg": 2.4592403349180176,
+  "rot_raw_median_deg": 45.0980035330109,
+  "verdict": "OK"
+ },
+ {
+  "file": "目标移位__franka2_take_the_blue_plate_from_the_p__0307_180934.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 260,
+  "n_segments": 2,
+  "n_used": 254,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   4e-05,
+   -0.0009,
+   -0.00773
+  ],
+  "pos_median_m": 0.01912727436331322,
+  "pos_p95_m": 0.036401036328542045,
+  "pos_max_m": 0.045069350291023304,
+  "pos_end_median_m": 0.0315772243958035,
+  "seg_pos_end_m": [
+   0.034955282793152305,
+   0.001529072644183424
+  ],
+  "seg_rot_end_deg": [
+   1.977905487307639,
+   0.5043371204380716
+  ],
+  "rot_median_deg": 1.2383299764882292,
+  "rot_end_median_deg": 1.2077445298294505,
+  "rot_p95_deg": 4.615569945746842,
+  "rot_max_deg": 6.133510976484753,
+  "rot_raw_median_deg": 44.96824499533813,
+  "verdict": "OK"
+ },
+ {
+  "file": "触碰多余__franka2_gather_strawberries__0306_113619.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 645,
+  "n_segments": 5,
+  "n_used": 630,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00172,
+   -0.00038,
+   -0.0066
+  ],
+  "pos_median_m": 0.011366696650394956,
+  "pos_p95_m": 0.029511681333051737,
+  "pos_max_m": 0.04179669199287303,
+  "pos_end_median_m": 0.00612380884322079,
+  "seg_pos_end_m": [
+   0.007114276815421617,
+   0.0042504220307549865,
+   0.01828570974406557,
+   0.0028017792526370306,
+   0.007307727708864611
+  ],
+  "seg_rot_end_deg": [
+   0.36390959113826754,
+   0.5811222029554796,
+   0.9949203560076747,
+   0.2717882928264442,
+   0.17206733873178534
+  ],
+  "rot_median_deg": 0.42341984494242385,
+  "rot_end_median_deg": 0.5138926608205983,
+  "rot_p95_deg": 1.4188445763347808,
+  "rot_max_deg": 2.644117451001701,
+  "rot_raw_median_deg": 45.03026365880308,
+  "verdict": "OK"
+ },
+ {
+  "file": "触碰多余__franka2_lay_out_the_spoon__0311_173305.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 273,
+  "n_segments": 2,
+  "n_used": 267,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00113,
+   -9e-05,
+   -0.00853
+  ],
+  "pos_median_m": 0.0054014864884879416,
+  "pos_p95_m": 0.03126474220535998,
+  "pos_max_m": 0.03524914159838968,
+  "pos_end_median_m": 0.0029817817925321963,
+  "seg_pos_end_m": [
+   0.003072937685905635,
+   0.0029350692486807203
+  ],
+  "seg_rot_end_deg": [
+   0.21408889248891377,
+   0.3770077428825891
+  ],
+  "rot_median_deg": 0.4926426502181685,
+  "rot_end_median_deg": 0.24764833839667708,
+  "rot_p95_deg": 1.71356429474856,
+  "rot_max_deg": 2.638789534981968,
+  "rot_raw_median_deg": 45.05344691573543,
+  "verdict": "OK"
+ },
+ {
+  "file": "触碰多余__franka2_move_apple_from_plate_to_bowl__0314_183613.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 313,
+  "n_segments": 3,
+  "n_used": 304,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00099,
+   -0.00044,
+   -0.00652
+  ],
+  "pos_median_m": 0.011608643839833302,
+  "pos_p95_m": 0.03394365025984162,
+  "pos_max_m": 0.038841741986651954,
+  "pos_end_median_m": 0.014324039617172936,
+  "seg_pos_end_m": [
+   0.020855045076682618,
+   0.010522480413224082,
+   0.0018835374215667013
+  ],
+  "seg_rot_end_deg": [
+   1.1413798767860928,
+   0.34699537572765005,
+   0.2336460490963414
+  ],
+  "rot_median_deg": 0.5760619644322023,
+  "rot_end_median_deg": 0.7084873117555567,
+  "rot_p95_deg": 2.3264607187164588,
+  "rot_max_deg": 3.304645449136782,
+  "rot_raw_median_deg": 45.00893728069685,
+  "verdict": "OK"
+ },
+ {
+  "file": "触碰多余__franka2_move_garnet_from_plate_to_bowl__0317_162716.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 324,
+  "n_segments": 3,
+  "n_used": 315,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00048,
+   -0.00092,
+   -0.00535
+  ],
+  "pos_median_m": 0.012398233109076813,
+  "pos_p95_m": 0.049856665321932496,
+  "pos_max_m": 0.05381588353622936,
+  "pos_end_median_m": 0.017258783669118517,
+  "seg_pos_end_m": [
+   0.006433156745274548,
+   0.047407710502622345,
+   0.003958279212215369
+  ],
+  "seg_rot_end_deg": [
+   1.351367001706941,
+   3.751472667571845,
+   0.9457706258071995
+  ],
+  "rot_median_deg": 0.943847903326273,
+  "rot_end_median_deg": 1.9724048343454847,
+  "rot_p95_deg": 3.883024377068629,
+  "rot_max_deg": 5.511825026589426,
+  "rot_raw_median_deg": 45.030808104764695,
+  "verdict": "OK"
+ },
+ {
+  "file": "触碰多余__franka2_move_lemon_from_plate_to_bowl__0317_143550.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 243,
+  "n_segments": 2,
+  "n_used": 237,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   -0.00044,
+   0.00014,
+   -0.00661
+  ],
+  "pos_median_m": 0.01662805250266088,
+  "pos_p95_m": 0.046796398460536466,
+  "pos_max_m": 0.05332803786026387,
+  "pos_end_median_m": 0.03200113335552789,
+  "seg_pos_end_m": [
+   0.03549830205224159,
+   0.00488046118479819
+  ],
+  "seg_rot_end_deg": [
+   1.9569678791403273,
+   0.22083267770399687
+  ],
+  "rot_median_deg": 0.7884946991758117,
+  "rot_end_median_deg": 1.6910128603390908,
+  "rot_p95_deg": 1.8774990172698194,
+  "rot_max_deg": 2.290947631840778,
+  "rot_raw_median_deg": 44.97112710718291,
+  "verdict": "OK"
+ },
+ {
+  "file": "速度过快__two_arm_franka_01_water_cup__0325_154017.npz",
+  "body": "franka",
+  "side": "left",
+  "n_frames": 216,
+  "n_segments": 2,
+  "n_used": 210,
+  "ctrl": "actuator",
+  "gain_scale": 1.0,
+  "armature": null,
+  "pos_offset_m": [
+   0.00247,
+   -0.00143,
+   -0.00199
+  ],
+  "pos_median_m": 0.01070640137087953,
+  "pos_p95_m": 0.1365762906678855,
+  "pos_max_m": 0.195659029062937,
+  "pos_end_median_m": 0.11424811583846906,
+  "seg_pos_end_m": [
+   0.14133331324623766,
+   0.004220259061080233
+  ],
+  "seg_rot_end_deg": [
+   12.582828105497274,
+   2.553480059959198
+  ],
+  "rot_median_deg": 2.0423820419581165,
+  "rot_end_median_deg": 10.129431670528051,
+  "rot_p95_deg": 16.40720654104084,
+  "rot_max_deg": 22.3631653385253,
+  "rot_raw_median_deg": 45.08270088186373,
+  "verdict": "OK"
+ }
+]

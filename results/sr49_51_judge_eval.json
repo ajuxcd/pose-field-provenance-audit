@@ -1,0 +1,373 @@
+{
+ "criteria": {
+  "cap_m": 1e-06,
+  "s0_floor_pos": 1e-09,
+  "s0_joint_range": 0.1,
+  "s3_mag_mult": 10.0,
+  "s3_disp": 0.5,
+  "s4_hi": 5.0,
+  "s4_lo": 2.0,
+  "sigma": 1e-06,
+  "seed": 20261111
+ },
+ "sr49_ablation": {
+  "Franka 成功侧": {
+   "C1 仅S2": {
+    "label": "模型正运动学输出",
+    "decided_by": "S2"
+   },
+   "C2 S0+S2": {
+    "label": "模型正运动学输出",
+    "decided_by": "S2"
+   },
+   "C3 S0+S2+S3": {
+    "label": "模型正运动学输出",
+    "decided_by": "S2"
+   },
+   "C4 全四步": {
+    "label": "模型正运动学输出",
+    "decided_by": "S2"
+   }
+  },
+  "Franka 失败侧": {
+   "C1 仅S2": {
+    "label": "实机标定值",
+    "decided_by": "S2-量级外推"
+   },
+   "C2 S0+S2": {
+    "label": "实机标定值",
+    "decided_by": "S2-量级外推"
+   },
+   "C3 S0+S2+S3": {
+    "label": "实机标定值",
+    "decided_by": "S2-量级外推"
+   },
+   "C4 全四步": {
+    "label": "实机标定值",
+    "decided_by": "S4"
+   }
+  },
+  "ARX X5": {
+   "C1 仅S2": {
+    "label": "实机标定值",
+    "decided_by": "S2-量级外推"
+   },
+   "C2 S0+S2": {
+    "label": "实机标定值",
+    "decided_by": "S2-量级外推"
+   },
+   "C3 S0+S2+S3": {
+    "label": "实机标定值",
+    "decided_by": "S3"
+   },
+   "C4 全四步": {
+    "label": "实机标定值",
+    "decided_by": "S3"
+   }
+  },
+  "Piper": {
+   "C1 仅S2": {
+    "label": "实机标定值",
+    "decided_by": "S2-量级外推"
+   },
+   "C2 S0+S2": {
+    "label": "实机标定值",
+    "decided_by": "S2-量级外推"
+   },
+   "C3 S0+S2+S3": {
+    "label": "实机标定值",
+    "decided_by": "S3"
+   },
+   "C4 全四步": {
+    "label": "实机标定值",
+    "decided_by": "S3"
+   }
+  }
+ },
+ "sr50_injection": {
+  "truths": [
+   "A_模型输出",
+   "B1_模型输出工具点不同",
+   "B2_实机标定值",
+   "C_字段无信息",
+   "D_来源存疑"
+  ],
+  "expected": {
+   "A_模型输出": "A",
+   "B1_模型输出工具点不同": "A",
+   "B2_实机标定值": "B",
+   "C_字段无信息": "C",
+   "D_来源存疑": "D"
+  },
+  "rows": {
+   "A_模型输出": {
+    "franka": {
+     "full_label": "模型正运动学输出",
+     "full_by": "S2",
+     "naive_label": "模型正运动学输出",
+     "naive_by": "S2",
+     "r_l1_mm": 1.246102973139239e-13,
+     "eta": null,
+     "off_mm": null,
+     "disp_pct": null
+    },
+    "piper": {
+     "full_label": "模型正运动学输出",
+     "full_by": "S2",
+     "naive_label": "模型正运动学输出",
+     "naive_by": "S2",
+     "r_l1_mm": 1.0844802153451051e-13,
+     "eta": null,
+     "off_mm": null,
+     "disp_pct": null
+    },
+    "arx_x5": {
+     "full_label": "模型正运动学输出",
+     "full_by": "S2",
+     "naive_label": "模型正运动学输出",
+     "naive_by": "S2",
+     "r_l1_mm": 7.850462293418876e-14,
+     "eta": null,
+     "off_mm": null,
+     "disp_pct": null
+    }
+   },
+   "B1_模型输出工具点不同": {
+    "franka": {
+     "full_label": "模型正运动学输出",
+     "full_by": "S2",
+     "naive_label": "模型正运动学输出",
+     "naive_by": "S2",
+     "r_l1_mm": 2.9602260157729653e-13,
+     "eta": null,
+     "off_mm": null,
+     "disp_pct": null
+    },
+    "piper": {
+     "full_label": "模型正运动学输出",
+     "full_by": "S2",
+     "naive_label": "模型正运动学输出",
+     "naive_by": "S2",
+     "r_l1_mm": 1.8175217721926584e-12,
+     "eta": null,
+     "off_mm": null,
+     "disp_pct": null
+    },
+    "arx_x5": {
+     "full_label": "模型正运动学输出",
+     "full_by": "S2",
+     "naive_label": "模型正运动学输出",
+     "naive_by": "S2",
+     "r_l1_mm": 1.6751525263991983e-12,
+     "eta": null,
+     "off_mm": null,
+     "disp_pct": null
+    }
+   },
+   "B2_实机标定值": {
+    "franka": {
+     "full_label": "实机标定值",
+     "full_by": "S3",
+     "naive_label": "实机标定值",
+     "naive_by": "S2-量级外推",
+     "r_l1_mm": 2.753391281625032,
+     "eta": null,
+     "off_mm": 22.139958536503343,
+     "disp_pct": 25.392327374149737
+    },
+    "piper": {
+     "full_label": "实机标定值",
+     "full_by": "S3",
+     "naive_label": "实机标定值",
+     "naive_by": "S2-量级外推",
+     "r_l1_mm": 5.203725391600671,
+     "eta": null,
+     "off_mm": 9.68840361846885,
+     "disp_pct": 17.518844047366024
+    },
+    "arx_x5": {
+     "full_label": "实机标定值",
+     "full_by": "S3",
+     "naive_label": "实机标定值",
+     "naive_by": "S2-量级外推",
+     "r_l1_mm": 3.6262421701027407,
+     "eta": null,
+     "off_mm": 10.989788752614851,
+     "disp_pct": 2.7202096301101077
+    }
+   },
+   "C_字段无信息": {
+    "franka": {
+     "full_label": "字段无信息",
+     "full_by": "S0",
+     "naive_label": "实机标定值",
+     "naive_by": "S2-量级外推",
+     "r_l1_mm": 0,
+     "eta": null,
+     "off_mm": null,
+     "disp_pct": null
+    },
+    "piper": {
+     "full_label": "字段无信息",
+     "full_by": "S0",
+     "naive_label": "实机标定值",
+     "naive_by": "S2-量级外推",
+     "r_l1_mm": 0,
+     "eta": null,
+     "off_mm": null,
+     "disp_pct": null
+    },
+    "arx_x5": {
+     "full_label": "字段无信息",
+     "full_by": "S0",
+     "naive_label": "实机标定值",
+     "naive_by": "S2-量级外推",
+     "r_l1_mm": 0,
+     "eta": null,
+     "off_mm": null,
+     "disp_pct": null
+    }
+   },
+   "D_来源存疑": {
+    "franka": {
+     "full_label": "实机标定值",
+     "full_by": "S4",
+     "naive_label": "实机标定值",
+     "naive_by": "S2-量级外推",
+     "r_l1_mm": 205.8316277191903,
+     "eta": 0.9999968361086908,
+     "off_mm": null,
+     "disp_pct": null
+    },
+    "piper": {
+     "full_label": "实机标定值",
+     "full_by": "S4",
+     "naive_label": "实机标定值",
+     "naive_by": "S2-量级外推",
+     "r_l1_mm": 269.23906816050254,
+     "eta": 0.9999992987744237,
+     "off_mm": null,
+     "disp_pct": null
+    },
+    "arx_x5": {
+     "full_label": "实机标定值",
+     "full_by": "S4",
+     "naive_label": "实机标定值",
+     "naive_by": "S2-量级外推",
+     "r_l1_mm": 265.5287644687352,
+     "eta": 0.9999999996246067,
+     "off_mm": null,
+     "disp_pct": null
+    }
+   }
+  },
+  "confusion_full": {
+   "A_模型输出": {
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "B1_模型输出工具点不同": {
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "B2_实机标定值": {
+    "A": 0,
+    "B": 3,
+    "C": 0,
+    "D": 0
+   },
+   "C_字段无信息": {
+    "A": 0,
+    "B": 0,
+    "C": 3,
+    "D": 0
+   },
+   "D_来源存疑": {
+    "A": 0,
+    "B": 3,
+    "C": 0,
+    "D": 0
+   }
+  },
+  "confusion_naive": {
+   "A_模型输出": {
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "B1_模型输出工具点不同": {
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "B2_实机标定值": {
+    "A": 0,
+    "B": 3,
+    "C": 0,
+    "D": 0
+   },
+   "C_字段无信息": {
+    "A": 0,
+    "B": 3,
+    "C": 0,
+    "D": 0
+   },
+   "D_来源存疑": {
+    "A": 0,
+    "B": 3,
+    "C": 0,
+    "D": 0
+   }
+  },
+  "correct_full": 12,
+  "correct_naive": 9,
+  "total": 15,
+  "false_positive_full": 3,
+  "false_positive_naive": 6,
+  "d_misjudged_as_B": 3,
+  "caveat": "注入实验检验判据流程对构造已知来源的区分能力，不是真实数据的来源真值"
+ },
+ "sr51_naive": {
+  "definition": "朴素基线＝只看扣常差后的残差量级：≤同源档上限判模型正运动学输出，否则判实机标定值；不做 S0／S3／S4",
+  "confusion": {
+   "A_模型输出": {
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "B1_模型输出工具点不同": {
+    "A": 3,
+    "B": 0,
+    "C": 0,
+    "D": 0
+   },
+   "B2_实机标定值": {
+    "A": 0,
+    "B": 3,
+    "C": 0,
+    "D": 0
+   },
+   "C_字段无信息": {
+    "A": 0,
+    "B": 3,
+    "C": 0,
+    "D": 0
+   },
+   "D_来源存疑": {
+    "A": 0,
+    "B": 3,
+    "C": 0,
+    "D": 0
+   }
+  },
+  "correct": 9,
+  "false_positive": 6
+ }
+}

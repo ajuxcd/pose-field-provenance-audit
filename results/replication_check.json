@@ -1,0 +1,58 @@
+{
+ "arx_x5": {
+  "主集": {
+   "n": 90,
+   "l1_p95_median_mm": 2.0097465,
+   "r1_pass_rate": 1.0,
+   "l2_end_median_mm": 5.209709715616951,
+   "delta_median_mm": 3.243699643161702,
+   "delta_neg_frac": 0.06666666666666667,
+   "l1_per_task_mm": {
+    "cover_blocks": 2.042468,
+    "insert_tubes": 2.1423385,
+    "make_bread": 1.751393
+   }
+  },
+  "复现": {
+   "n": 90,
+   "l1_p95_median_mm": 1.7852294999999998,
+   "r1_pass_rate": 1.0,
+   "l2_end_median_mm": 5.276727339827694,
+   "delta_median_mm": 3.4864714422462173,
+   "delta_neg_frac": 0.011111111111111112,
+   "l1_per_task_mm": {
+    "make_food": 1.8825615,
+    "pack_and_pour_fruit": 1.9756885,
+    "store_in_safe": 1.540582
+   }
+  }
+ },
+ "piper": {
+  "主集": {
+   "n": 90,
+   "l1_p95_median_mm": 6.732614999999999,
+   "r1_pass_rate": 1.0,
+   "l2_end_median_mm": 7.463035114263867,
+   "delta_median_mm": 0.40404454115380156,
+   "delta_neg_frac": 0.4,
+   "l1_per_task_mm": {
+    "fill_pen_holder": 8.285226,
+    "insert_charger": 5.017564999999999,
+    "put_objects_into_basket": 7.2986235
+   }
+  },
+  "复现": {
+   "n": 90,
+   "l1_p95_median_mm": 7.384194000000001,
+   "r1_pass_rate": 1.0,
+   "l2_end_median_mm": 6.62289469201686,
+   "delta_median_mm": -0.9954431352866407,
+   "delta_neg_frac": 0.5888888888888889,
+   "l1_per_task_mm": {
+    "stack_and_cover_blocks": 6.923026500000001,
+    "stack_bowls": 6.866721500000001,
+    "stand_up_bottles": 8.424957
+   }
+  }
+ }
+}

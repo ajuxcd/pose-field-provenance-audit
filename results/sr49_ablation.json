@@ -1,0 +1,98 @@
+{
+ "configs": [
+  "C1 仅 S2",
+  "C2 S0+S2",
+  "C3 S0+S2+S3",
+  "C4 全四步"
+ ],
+ "criteria": {
+  "cap_m": 1e-06,
+  "s0_floor_pos": 1e-09,
+  "s0_floor_rot": 1e-06,
+  "s0_joint_range": 0.1,
+  "s3_mag_mult": 10.0,
+  "s3_disp": 0.5,
+  "s4_hi": 5.0,
+  "s4_lo": 2.0
+ },
+ "batches": {
+  "Franka 成功侧": {
+   "C1 仅 S2": {
+    "label": "模型正运动学输出",
+    "decided_by": "S2"
+   },
+   "C2 S0+S2": {
+    "label": "模型正运动学输出",
+    "decided_by": "S2"
+   },
+   "C3 S0+S2+S3": {
+    "label": "模型正运动学输出",
+    "decided_by": "S2"
+   },
+   "C4 全四步": {
+    "label": "模型正运动学输出",
+    "decided_by": "S2"
+   }
+  },
+  "Franka 失败侧": {
+   "C1 仅 S2": {
+    "label": "来源存疑",
+    "decided_by": "—"
+   },
+   "C2 S0+S2": {
+    "label": "来源存疑",
+    "decided_by": "—"
+   },
+   "C3 S0+S2+S3": {
+    "label": "来源存疑",
+    "decided_by": "—"
+   },
+   "C4 全四步": {
+    "label": "实机标定值",
+    "decided_by": "S4"
+   }
+  },
+  "ARX X5": {
+   "C1 仅 S2": {
+    "label": "来源存疑",
+    "decided_by": "—"
+   },
+   "C2 S0+S2": {
+    "label": "来源存疑",
+    "decided_by": "—"
+   },
+   "C3 S0+S2+S3": {
+    "label": "实机标定值",
+    "decided_by": "S3"
+   },
+   "C4 全四步": {
+    "label": "实机标定值",
+    "decided_by": "S3"
+   }
+  },
+  "Piper": {
+   "C1 仅 S2": {
+    "label": "来源存疑",
+    "decided_by": "—"
+   },
+   "C2 S0+S2": {
+    "label": "来源存疑",
+    "decided_by": "—"
+   },
+   "C3 S0+S2+S3": {
+    "label": "实机标定值",
+    "decided_by": "S3"
+   },
+   "C4 全四步": {
+    "label": "实机标定值",
+    "decided_by": "S3"
+   }
+  }
+ },
+ "sim_set": {
+  "n_samples": 39,
+  "n_constant": 36,
+  "n_informative": 2,
+  "n_error": 1
+ }
+}

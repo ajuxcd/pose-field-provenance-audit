@@ -1,0 +1,82 @@
+{
+ "generated": "2026-11-06",
+ "source": "fk_identity_matrix.json",
+ "definition": "P95 of post-offset residuals × 1.5 (approximate tier); numeric ceiling (same-source tier); excluded otherwise",
+ "bodies": {
+  "franka": {
+   "tier_pos": "same-source",
+   "tier_rot": "same-source",
+   "n_groups": 1,
+   "n_frames_min": 600,
+   "p95_pos_m": 3.981047072467642e-08,
+   "p95_rot_deg": 5.7905745997743736e-06,
+   "max_pos_m": 3.981047072467642e-08,
+   "max_rot_deg": 5.7905745997743736e-06,
+   "improve_pos_x": 1.0,
+   "improve_rot_x": 7771249.9,
+   "threshold_pos_m": 1e-06,
+   "threshold_rot_deg": 0.001,
+   "in_e1": true
+  },
+  "arx_x5": {
+   "tier_pos": "approximate",
+   "tier_rot": "same-source",
+   "n_groups": 6,
+   "n_frames_min": 986,
+   "p95_pos_m": 0.0029591846807694206,
+   "p95_rot_deg": 0.0005620548291637461,
+   "max_pos_m": 0.002976336229912266,
+   "max_rot_deg": 0.00057076157134045,
+   "improve_pos_x": 93.3,
+   "improve_rot_x": 1.86,
+   "threshold_pos_m": 0.004438777021154131,
+   "threshold_rot_deg": 0.00171228471402135,
+   "in_e1": true
+  },
+  "piper": {
+   "tier_pos": "approximate",
+   "tier_rot": "approximate",
+   "n_groups": 6,
+   "n_frames_min": 735,
+   "p95_pos_m": 0.012039101383384338,
+   "p95_rot_deg": 0.753205184377161,
+   "max_pos_m": 0.012166790784625531,
+   "max_rot_deg": 0.7621146300821302,
+   "improve_pos_x": 1.2,
+   "improve_rot_x": 1.0,
+   "threshold_pos_m": 0.01805865207507651,
+   "threshold_rot_deg": 1.1298077765657415,
+   "in_e1": true
+  },
+  "piper_x": {
+   "tier_pos": "asset-gap",
+   "tier_rot": "asset-gap",
+   "n_groups": 6,
+   "n_frames_min": 493,
+   "p95_pos_m": 0.11442673772090829,
+   "p95_rot_deg": 114.31915022393648,
+   "max_pos_m": 0.11486565263449841,
+   "max_rot_deg": 115.45584821599982,
+   "improve_pos_x": 1.3,
+   "improve_rot_x": 1.85,
+   "threshold_pos_m": null,
+   "threshold_rot_deg": null,
+   "in_e1": false
+  },
+  "ur5": {
+   "tier_pos": "excluded-data-defect",
+   "tier_rot": "excluded-data-defect",
+   "n_groups": 1,
+   "n_frames_min": 158,
+   "p95_pos_m": 0.00047741412683209773,
+   "p95_rot_deg": 16.052801999277523,
+   "max_pos_m": 0.00047741412683209773,
+   "max_rot_deg": 16.052801999277523,
+   "improve_pos_x": 209.3,
+   "improve_rot_x": 6.3,
+   "threshold_pos_m": null,
+   "threshold_rot_deg": null,
+   "in_e1": false
+  }
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "sr52": {
+  "arx_x5": {
+   "cal=odd": {
+    "cal_n": 3,
+    "val_n": 3,
+    "cal_p95_m": 0.0029694756102551277,
+    "threshold_m": 0.004454213415382692,
+    "admitted": 3,
+    "total": 3,
+    "admit_rate": 1.0,
+    "admitted_files": [
+     "arx_x5__cover_blocks__episode_0000000.hdf5",
+     "arx_x5__cover_blocks__episode_0000001.hdf5",
+     "arx_x5__cover_blocks__episode_0000002.hdf5"
+    ]
+   },
+   "cal=even": {
+    "cal_n": 3,
+    "val_n": 3,
+    "cal_p95_m": 0.0019808703783283266,
+    "threshold_m": 0.00297130556749249,
+    "admitted": 2,
+    "total": 3,
+    "admit_rate": 0.6666666666666666,
+    "admitted_files": [
+     "arx_x5__cover_blocks__episode_0000000.hdf5",
+     "arx_x5__cover_blocks__episode_0000001.hdf5"
+    ]
+   },
+   "full": {
+    "cal_n": 6,
+    "val_n": 6,
+    "cal_p95_m": 0.0029591846807694206,
+    "threshold_m": 0.004438777021154131,
+    "admitted": 6,
+    "total": 6,
+    "admit_rate": 1.0
+   }
+  },
+  "franka": {
+   "full": {
+    "cal_n": 1,
+    "val_n": 1,
+    "cal_p95_m": 3.981047072467642e-08,
+    "threshold_m": 1e-06,
+    "admitted": 1,
+    "total": 1,
+    "admit_rate": 1.0
+   }
+  },
+  "piper": {
+   "cal=odd": {
+    "cal_n": 3,
+    "val_n": 3,
+    "cal_p95_m": 0.011835223794076198,
+    "threshold_m": 0.017752835691114296,
+    "admitted": 3,
+    "total": 3,
+    "admit_rate": 1.0,
+    "admitted_files": [
+     "piper__fill_pen_holder__episode_0000000.hdf5",
+     "piper__fill_pen_holder__episode_0000001.hdf5",
+     "piper__fill_pen_holder__episode_0000002.hdf5"
+    ]
+   },
+   "cal=even": {
+    "cal_n": 3,
+    "val_n": 3,
+    "cal_p95_m": 0.011539945780856726,
+    "threshold_m": 0.01730991867128509,
+    "admitted": 3,
+    "total": 3,
+    "admit_rate": 1.0,
+    "admitted_files": [
+     "piper__fill_pen_holder__episode_0000000.hdf5",
+     "piper__fill_pen_holder__episode_0000001.hdf5",
+     "piper__fill_pen_holder__episode_0000002.hdf5"
+    ]
+   },
+   "full": {
+    "cal_n": 6,
+    "val_n": 6,
+    "cal_p95_m": 0.012039101383384338,
+    "threshold_m": 0.01805865207507651,
+    "admitted": 6,
+    "total": 6,
+    "admit_rate": 1.0
+   }
+  },
+  "piper_x": {
+   "cal=odd": {
+    "cal_n": 3,
+    "val_n": 3,
+    "cal_p95_m": 0.11376049891263573,
+    "threshold_m": 0.1706407483689536,
+    "admitted": 3,
+    "total": 3,
+    "admit_rate": 1.0,
+    "admitted_files": [
+     "piper_x__cap_pen__episode_0000000.hdf5",
+     "piper_x__cap_pen__episode_0000001.hdf5",
+     "piper_x__cap_pen__episode_0000002.hdf5"
+    ]
+   },
+   "cal=even": {
+    "cal_n": 3,
+    "val_n": 3,
+    "cal_p95_m": 0.1123192709391708,
+    "threshold_m": 0.16847890640875618,
+    "admitted": 3,
+    "total": 3,
+    "admit_rate": 1.0,
+    "admitted_files": [
+     "piper_x__cap_pen__episode_0000000.hdf5",
+     "piper_x__cap_pen__episode_0000001.hdf5",
+     "piper_x__cap_pen__episode_0000002.hdf5"
+    ]
+   },
+   "full": {
+    "cal_n": 6,
+    "val_n": 6,
+    "cal_p95_m": 0.11442673772090829,
+    "threshold_m": 0.17164010658136244,
+    "admitted": 6,
+    "total": 6,
+    "admit_rate": 1.0
+   }
+  }
+ },
+ "sr53": {
+  "Franka 成功侧": {
+   "n": 90,
+   "median_m": 3.3e-08,
+   "ci95": [
+    3.3e-08,
+    3.4e-08
+   ]
+  },
+  "Franka 失败侧": {
+   "n": 31,
+   "median_m": 0.0005931802869264149,
+   "ci95": [
+    0.0005342033700897243,
+    0.0006615078100767164
+   ]
+  },
+  "ARX X5": {
+   "n": 90,
+   "median_m": 0.0020097465,
+   "ci95": [
+    0.0019282065,
+    0.002070228
+   ]
+  },
+  "Piper": {
+   "n": 90,
+   "median_m": 0.006732615,
+   "ci95": [
+    0.0064699835,
+    0.007131905
+   ]
+  },
+  "ratio_1.76e4": {
+   "point": 17975.160209891365
+  }
+ },
+ "sr54": {
+  "n": 10,
+  "l1_s_per_trace": 0.007052708533592522,
+  "s4_s_per_trace": 0.007756124483421445,
+  "total_s_per_trace": 0.015821541543118656,
+  "note": "单条轨迹判定 ＝ 一次正运动学复算（S1／S2）＋ 一次噪声注入复算（S4）；与轨迹长度线性相关，不随轨迹数增长"
+ }
+}

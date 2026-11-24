@@ -1,0 +1,28 @@
+[
+ {
+  "file": "traj_0923_164719.hdf5",
+  "model": "franka_emika_panda",
+  "body": "hand",
+  "n_frames": 600,
+  "n_sampled": 600,
+  "pos_abs_max_m": 4.015600084088966e-08,
+  "pos_rms_m": 2.2958806532804342e-08,
+  "rot_raw_mean_deg": 44.99999803375879,
+  "rot_raw_max_deg": 45.00000228357377,
+  "rot_after_45deg_fix_mean_deg": 3.8609583017915855e-06,
+  "rot_after_45deg_fix_max_deg": 7.3444386094852035e-06
+ },
+ {
+  "file": "fail_ur_stack_apples_0312_110951.hdf5",
+  "model": "universal_robots_ur5e",
+  "body": "wrist_3_link",
+  "n_frames": 158,
+  "n_sampled": 158,
+  "pos_abs_max_m": 0.09994078324843952,
+  "pos_rms_m": 0.09975361502755202,
+  "rot_raw_mean_deg": 86.73226421947174,
+  "rot_raw_max_deg": 101.10383181653422,
+  "rot_after_45deg_fix_mean_deg": 95.10759295274374,
+  "rot_after_45deg_fix_max_deg": 105.19064816855557
+ }
+]
